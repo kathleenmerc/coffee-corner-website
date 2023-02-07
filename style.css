@@ -1,5 +1,19 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+    background: rgb(25, 28, 31)
+}
+
+
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    #menu {
+        text-align: center;
     }
 }

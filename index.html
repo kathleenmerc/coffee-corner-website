@@ -26,11 +26,14 @@
 </head>
 
 <body>
+
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <a href="#"
-               class="navbar-brand">Coffee Corner</a>
+               class="navbar-brand">
+                <i class="fa-solid fa-fire"></i>
+                Coffee Corner</a>
 
             <button class="navbar-toggler"
                     type="button"
@@ -45,16 +48,12 @@
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#about"
-                               class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="#menu"
                                class="nav-link">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#locations"
-                               class="nav-link">Locations</a>
+                            <a href="#about"
+                               class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
                             <a href="#contact"
@@ -66,14 +65,20 @@
         </div>
     </nav>
 
+
     <!-- Show page -->
     <section class="bg-dark text-light p-5 text-center text-sm-start">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
-                <div>
-                    <h1><span class="text-warning">Caffeinate</span> your day</h1>
-                    <p class="lead my-4">Sustainably Sourced. Sustainaly Priced.</p>
-                    <button class="btn btn-primary btn-lg">Get a free coffee</button>
+                <div class="mx-5">
+                    <h1><span class="text-warning">
+                            <i class="fa-solid fa-fire"></i>
+                            Caffeinate</span> your day</h1>
+                    <p class="lead my-4">Sustainably sourced. Sustainably priced.</p>
+                    <button class="btn btn-warning btn-lg">
+                        Grab a free coffee on us
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
                 </div>
                 <img class="img-fluid w-50 d-none d-sm-block"
                      src="images/landing-image.jpg"
@@ -82,32 +87,11 @@
         </div>
     </section>
 
-    <!-- Newsletter -->
-    <section class="bg-primary text-light p-5">
-        <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
-                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
-
-                <div class="input-group news-input">
-                    <input type="text"
-                           class="form-control"
-                           placeholder="Enter Email"
-                           aria-label="User Email"
-                           aria-describedby="button-addon2" />
-                    <button class="btn btn-dark btn-lg "
-                            type="button"
-                            id="button-addon2">
-                        Button
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Boxes -->
     <section class="p-5">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center g-4">
                 <div class="col-md  d-flex align-items-stretch">
                     <div class="card bg-dark text-light">
                         <div class="card-body text-center">
@@ -120,7 +104,8 @@
                             </h3>
 
                             <p class="card-text">
-                                We sell a range of supercharged speciality coffees. They'll get you through even the
+                                We sell a range of super-charged specialty coffee beans. They'll get you through even
+                                the
                                 toughest day's work!
                             </p>
 
@@ -160,8 +145,8 @@
                             </h3>
 
                             <p class="card-text">
-                                Our loyalty and pre-payment schemes make ours the most affordable high-end
-                                coffee going.
+                                Our loyalty and pre-payment plans make ours the most affordable high-end
+                                coffee in the area.
                             </p>
 
                         </div>
@@ -170,6 +155,264 @@
             </div>
         </div>
     </section>
+
+
+    <!-- Menu Section -->
+    <section id="menu"
+             class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-5 text-left">
+                    <p class="h3">
+                        Check out our latest menu
+                    </p>
+                    <p>
+                        Serving fresh brews, pastries, and sandwiches all day, every day.
+                    </p>
+                    <a href="#"
+                       class="btn btn-warning">
+                        See Menu
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="/coffee-corner-website/images/brunch.jpg"
+                         class="img-fluid"
+                         alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about"
+             class="p-5 bg-light">
+        <div class="container">
+            <h2 class="text-center text-dark">Meet Our Team</h2>
+            <p class="lead text-center text-dark mb-5">
+                Our Baristas are coffee lovers too!
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg"
+                                 class="rounded-circle mb-3"
+                                 alt="" />
+                            <h3 class="card-title mb-3">Jordan Fray</h3>
+                            <p class="card-text">
+                                Go to Drink: Cortado
+                            </p>
+                            <a href="#"><i class="fa-brands fa-twitter p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram p-1 text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                 class="rounded-circle mb-3"
+                                 alt="" />
+                            <h3 class="card-title mb-3">Sarah Mosey</h3>
+                            <p class="card-text">
+                                Go to Drink: Macchiato
+                            </p>
+                            <a href="#"><i class="fa-brands fa-twitter p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram p-1 text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/23.jpg"
+                                 class="rounded-circle mb-3"
+                                 alt="" />
+                            <h3 class="card-title mb-3">Aaron Lee</h3>
+                            <p class="card-text">
+                                Go to Drink: Flat White
+                            </p>
+                            <a href="#"><i class="fa-brands fa-twitter p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram p-1 text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/30.jpg"
+                                 class="rounded-circle mb-3"
+                                 alt="" />
+                            <h3 class="card-title mb-3">Kim Praline</h3>
+                            <p class="card-text">
+                                Go to Drink: Affogato
+                            </p>
+                            <a href="#"><i class="fa-brands fa-twitter p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram p-1 text-warning"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section id="faq"
+             class="p-4 bg-dark text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush"
+                 id="faq">
+                <!-- Item 1 -->
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-one"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                            Where do you source your coffee beans from?
+                        </button>
+                    </h2>
+                    <div id="question-one"
+                         class="accordion-collapse collapse text-light"
+                         aria-labelledby="flush-headingOne"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel
+                            est doloribus maiores, cupiditate esse possimus excepturi labore suscipit consequatur,
+                            veritatis perspiciatis dolor similique ut, dolore nesciunt provident ab! Alias?</div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-two"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                            Can I order your coffee beans online?
+                        </button>
+                    </h2>
+                    <div id="question-two"
+                         class="accordion-collapse collapse text-light"
+                         aria-labelledby="flush-headingTwo"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                            cumque ea, commodi, porro, deleniti mollitia incidunt suscipit recusandae voluptate neque
+                            quos delectus quo ipsam architecto ab natus beatae! Officia, obcaecati.</div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item  bg-dark">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#question-three"
+                                aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                            Where are you located?
+                        </button>
+                    </h2>
+                    <div id="question-three"
+                         class="accordion-collapse collapse text-light"
+                         aria-labelledby="flush-headingThree"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+                            necessitatibus velit praesentium debitis quod voluptatum ex quos et asperiores laboriosam,
+                            quaerat tempora optio quasi esse. Sit nam cumque perferendis quaerat.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact"
+             class="p-5 bg-dark text-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead ">
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Address:</span>
+                            50 Cafe Lane, Telluride, CO 20024
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Phone:</span>
+                            555-555-5555
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Email:</span>
+                            hello@coffeecorner.com
+                        </li>
+                        <li class="list-group-item bg-dark text-light">
+                            <span class="fw-bold">Follow us @coffeecorner:</span>
+                            <a href="#"><i class="fa-brands fa-twitter p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook p-1 text-warning"></i></a>
+                            <a href="#"><i class="fa-brands fa-tiktok p-1 text-warning"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="map" class="col-md text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.6551330591183!2d-107.84836214920318!3d37.93848637963055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x873ed804c1dcd1ab%3A0x2549323bc9cd4f43!2sTelluride%20Resort%20Lodging!5e0!3m2!1sen!2sus!4v1675745719595!5m2!1sen!2sus"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Newsletter -->
+    <section class="bg-light text-dark p-4">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Enter Email Address"
+                           aria-label="User Email"
+                           aria-describedby="button-addon2" />
+                    <button class="btn btn-dark btn-lg "
+                            type="button"
+                            id="button-addon2">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p>Copyright &copy; Coffee Corner Co.</p>
+
+            <a href="#"
+               class="position-absolute bottom-0 end-0 p-5">
+                <i class="fa-solid fa-arrow-up h3 text-warning"></i>
+            </a>
+        </div>
+    </footer>
+
 
 </body>
 
