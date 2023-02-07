@@ -5,7 +5,6 @@ body::before {
     background: rgb(25, 28, 31)
 }
 
-
 @media(min-width: 768px) {
     .news-input {
         width: 50%;
