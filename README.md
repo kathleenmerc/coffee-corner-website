@@ -4,4 +4,4 @@ A website for a cafe named Coffee Corner, with responsive designs for desktop an
 
 Created using HTML, CSS, Bootstrap v5.3.0-alpha1, and Font Awesome Icons
 
-Live link: Github Pages
+Live link: https://kathleenmerc.github.io/coffee-corner-website/
